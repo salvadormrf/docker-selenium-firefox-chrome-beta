@@ -16,7 +16,7 @@ RUN echo "deb http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sou
 RUN apt-get update -y
 RUN apt-get install -y -q \
   firefox \
-  google-chrome-beta \
+  google-chrome-stable \
   openjdk-7-jre-headless \
   nodejs \
   x11vnc \
